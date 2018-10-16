@@ -98,4 +98,4 @@ systemctl restart nginx
 echo -e "-- Installing Wordpress modules --"
 cd /var/www/wordpress
 echo -e "--> Gutenberg"
-wp plugin install --activate gutenberg
+wp plugin install --activate gutenberg --allow-root
