@@ -93,9 +93,11 @@ echo -e "-- Starting services : MariaDB PHP7.2-FPM NGINX --"
 systemctl start mariadb 
 systemctl start php7.2-fpm
 systemctl start nginx
-systemctl restart nginx
 
 echo -e "-- Installing Wordpress modules --"
 cd /var/www/wordpress
 echo -e "--> Gutenberg"
 wp plugin install --activate gutenberg --allow-root
+
+
+systemctl reload nginx
