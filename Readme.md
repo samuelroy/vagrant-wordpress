@@ -6,10 +6,10 @@ Vagrant setup for running Wordpress 4.9.8 and WP-CLI on Debian 9.5 / Mariadb 10.
 
 Automatic download of wordpress 4.9.8 in folder `vagrant/wordpress`:
 
-1 - Open your terminal and run: `./setup.sh`
-2 - Launch the virtual machine with: `vagrant up`
-3 - Open your browser on http://localhost:8080
-4 - Connect as admin on http://localhost:8080/wp-admin, login: admin, password: admin
+1. Open your terminal and run: `./setup.sh`
+2. Launch the virtual machine with: `vagrant up`
+3. Open your browser on http://localhost:8080
+4. Connect as admin on http://localhost:8080/wp-admin, login: admin, password: admin
 
 ## Database
 
